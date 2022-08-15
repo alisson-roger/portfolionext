@@ -1,11 +1,14 @@
 import styles from '../styles/intro.module.css';
 import Image from 'next/image';
 import Avocado from '../public/img/Avocado.png';
+import Circle from './Circle';
 
 const Intro = () => {
   return (
     <div className={styles.container}>
       <div className={styles.card}>
+        <Circle backgroundColor="#b0ff49" top="-50vh" left="-50vh" />
+        <Circle backgroundColor="#01c686" right="-180vh" />
         <h1 className={styles.title}>
           <span className={styles.brand}>AV0CAD0</span> DIGITAL PRODUCT AGENCY
         </h1>

@@ -1,8 +1,9 @@
 .container {
   width: 100%;
   height: calc(100vh - 50px);
-  background-color: aqua;
+  overflow: hidden;
   display: flex;
+  position: relative;
 }
 
 .card {
@@ -21,7 +22,7 @@
 }
 
 .brand {
-  color: white;
+  color: rgb(75, 168, 66);
 }
 
 .desc {
