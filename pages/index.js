@@ -3,7 +3,7 @@ import Image from "next/image";
 import Intro from "../components/Intro";
 import Services from "../components/Services";
 import { data } from "../data";
-// import Testimonials from "../components/Testimonials";
+import Testimonials from "../components/Testimonials";
 
 export default function Home({ services }) {
   return (
@@ -17,7 +17,7 @@ export default function Home({ services }) {
       </Head>
       <Intro />
       <Services services={services} />
-      {/* <Testimonials /> */}
+      <Testimonials />
     </div>
   );
 }
